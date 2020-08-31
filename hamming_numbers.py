@@ -10,7 +10,6 @@ def hamming(n):
             # only insert if h isn't already in `numbers`
             if numbers[insert_index - 1] != h:
                 numbers.insert(insert_index, h)
-
     return numbers[n - 1]
 
 
